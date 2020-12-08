@@ -24,6 +24,9 @@ object ParkingLot {
     const val leave = "leave"
     const val exit = "exit"
     const val parkingLotStatus = "status"
+    const val regByColor = "reg_by_color"
+    const val spotByColor = "spot_by_color"
+    const val spotByReg = "spot_by_reg"
     var spaces: Array<Pair<String?, Car?>> = Array(numOfSpaces) { Pair(null, null) }
 
     fun start() {
@@ -76,6 +79,25 @@ object ParkingLot {
                 exitOrder.requestStatus = "valid"
                 return exitOrder
             }
+            regByColor -> {
+                val regByColorOrder = Order(splitInputs[0])
+                regByColorOrder.color = splitInputs[1]
+                regByColorOrder.requestStatus = "valid"
+                return regByColorOrder
+            }
+            spotByColor -> {
+                val spotByColorOrder = Order(splitInputs[0])
+                spotByColorOrder.color = splitInputs[1]
+                spotByColorOrder.requestStatus = "valid"
+                return spotByColorOrder
+            }
+            spotByReg -> {
+                val spotByRegOrder = Order(splitInputs[0])
+                spotByRegOrder.regNum = splitInputs[1]
+                spotByRegOrder.requestStatus = "valid"
+                return spotByRegOrder
+
+            }
 
             else -> {
                 val incorrectOrder = Order(splitInputs[0])
@@ -109,8 +131,32 @@ object ParkingLot {
             leave(order)
             return leave
         }
+        if (order.command == regByColor) {
+            regByColor()
+        }
+        if (order.command == spotByColor) {
+            spotByColor()
+        }
+        if (order.command == spotByReg) {
+            spotByReg()
+        }
+        return "invalid"
+    }
 
-            return "invalid"
+    // returns the spot using the registration
+    private fun spotByReg() {
+        TODO("Not yet implemented")
+    }
+
+    //returns a list of spots separated by a comma, using the color
+    private fun spotByColor() {
+
+
+    }
+
+    //returns a list of registrations separated by a comma using the color
+    private fun regByColor() {
+        TODO("Not yet implemented")
     }
 
 
