@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        val productType = readLine()!!
+        val price = readLine()!!
+        val product = Product(price)
+        println(totalPrice(product))
+    }
+
+    class Product(val price: Int)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7777#comment
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7777#comment">JetBrains
+    Academy</a></html>
+  time: Sat, 14 Nov 2020 13:28:48 UTC
+record: -1

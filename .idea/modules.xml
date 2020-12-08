@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking_Lot.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking_Lot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking_Lot.Parking_Lot-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking_Lot.Parking_Lot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cart/Parking_Lot.Problems-Cart.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cart/Parking_Lot.Problems-Cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Digits or not/Parking_Lot.Problems-Digits_or_not.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Digits or not/Parking_Lot.Problems-Digits_or_not.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Handle string exception/Parking_Lot.Problems-Handle_string_exception.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Handle string exception/Parking_Lot.Problems-Handle_string_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/House inheritance/Parking_Lot.Problems-House_inheritance.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/House inheritance/Parking_Lot.Problems-House_inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Triples/Parking_Lot.Problems-Triples.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Triples/Parking_Lot.Problems-Triples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking_Lot.util.iml" />
+    </modules>
+  </component>
+</project>
